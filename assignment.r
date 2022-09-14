@@ -1,3 +1,5 @@
 library(igraph)
 g1 <- graph( edges=c(1,2, 2,3, 3,1), n=3, directed=F)
 plot(g1)
+g2 <- graph( edges=c(a,b, b,d, c,d, c,c), n=4, directed=F)
+plot(g2)
